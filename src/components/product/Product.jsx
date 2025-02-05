@@ -14,7 +14,7 @@ const Product = () => {
     const [total, setTotal] = useState(0)
     const [onset, setOnset] = useState(1)
     const [oneItem, setOneItem] = useState(null)
-    const limit = 6
+    const limit = 8
 
     useEffect(()=>{
         axios
@@ -58,7 +58,7 @@ const Product = () => {
 
     const productItem = products?.map((product) => (
         <div key={product.id} className="rounded-lg flex flex-col items-center hover:shadow-xl duration-4 pt-4">
-          <div className="w-[239px] aspect-square overflow-hidden rounded-lg pl-5">
+          <div className="w-[239px] aspect-square overflow-hidden rounded-lg">
           <Link to = {`/product/${product.id}`}>
             <img
               className="h-full object-contain"
@@ -109,7 +109,7 @@ const Product = () => {
     
     return (
 
-      <section className="py-10">
+      <section className="py-10 mb-11">
       <div className="container mx-auto">
         <div className="mb-12 text-[#737373] text-center">
           <h2 className="mb-2.5 text-[20px] font-normal">Featured Products</h2>
@@ -139,7 +139,7 @@ const Product = () => {
 
             {
                 limit * onset <= total &&
-                <button onClick={() => setOnset(p => p + 1)} className='py-2 px-6 border rounded-md block mx-auto mt-5 bg-emerald-300 text-slate-100 text green'>See more</button>
+                <button onClick={() => setOnset(p => p + 1)} className='py-2 px-6 border rounded-md block mx-auto mt-5 bg-[#2DC071] text-slate-100 text green'>See more</button>
             }
         </div>
     </section>

@@ -9,6 +9,8 @@ import { CiHeart } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
 import { IoEyeSharp } from "react-icons/io5";
 import Description from "../../components/description/Description";
+import Bestseller from "../../components/bestseller/bestseller";
+import Icon from "../../components/icons/Icons";
 
 const Detail = () => {
   const { id } = useParams();
@@ -127,6 +129,8 @@ const Detail = () => {
     </div>
     </div>
     <Description/>
+    <Bestseller/>
+    <Icon/>
     </>
     
   );
