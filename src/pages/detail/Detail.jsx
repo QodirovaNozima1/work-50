@@ -65,7 +65,7 @@ const Detail = () => {
     <div className="bg-[#FAFAFA] pb-14 pt-8">
       <div className="container w-10/12 pt-14 pb-6 ">
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mb-10 px-1 ">
-        <div className="mt-12 gap-16">
+        <div className="mt-12 flex flex-col gap-9">
           {" "}
           <img
             className="w-[300px] m-auto mb-4 object-contain"

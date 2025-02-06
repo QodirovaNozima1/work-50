@@ -1,6 +1,9 @@
 @media(max-width:1000px){
     .posts{
         display: grid;
-        gap: 30px;
+        gap: 20px;
+    }
+    .posts__card{
+        width: 100%;
     }
 }

@@ -19,7 +19,7 @@ const Hero = () => {
           We know how large objects will act, but things on a small scale.
         </p>
         <div className="btns flex gap-5   @md:gap-2">
-          <button className="hero__btn w-[148px] h-[51px] text-white bg-[#2DC071] rounded-md font-medium">
+          <button className="hero__btn w-[148px] h-[51px] text-white bg-[#2DC071] rounded-md font-medium hover:drop-shadow-lg shadow-emerald-200">
             Shop now
           </button>
         </div>

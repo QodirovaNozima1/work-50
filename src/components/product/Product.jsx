@@ -57,17 +57,17 @@ const Product = () => {
   }, []);
 
     const productItem = products?.map((product) => (
-        <div key={product.id} className="rounded-lg flex flex-col items-center hover:shadow-xl duration-4 pt-4">
-          <div className="w-[239px] aspect-square overflow-hidden rounded-lg">
+        <div key={product.id} className="rounded-lg flex flex-col items-center  p-2">
+          <div className=" w-[238px] aspect-square overflow-hidden rounded-lg">
           <Link to = {`/product/${product.id}`}>
             <img
-              className="h-full object-contain"
+              className="h-full object-contain hover:scale[1.1s] duration-300 ease-in"
               src={product.images}
               alt=""
             />
             </Link>
           </div>
-          <div className="p-4 text-center flex flex-col items-center">
+          <div className="p-2 text-center flex flex-col items-center">
             <h2
               title={product.title}
               className="text-[#252B42] text-[16px] font-bold mb-2 desck"
@@ -133,7 +133,7 @@ const Product = () => {
             <div className="flex item-center justify-center">
             {loading && <h2 className='text-7xl items-center justify-center'><LiaSpinnerSolid /></h2>}
             </div>
-            <div className='flex gap-3 flex-wrap items-center justify-center'>
+            <div className='grid  md:grid-cols-3  lg:grid-cols-4 sm:grid-cols-2 gap-2'>
                 { productItem}
             </div>
 

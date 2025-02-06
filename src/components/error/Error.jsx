@@ -13,7 +13,7 @@ const Error = () => {
 
     const navigate = useNavigate();
     return (
-        <div className="bg-slate-200 h-screen m-auto">
+        <div className="bg-slate-200 h-screen pt-18 m-auto">
                 <div className="flex flex-col gap-6 items-center container mx-auto">
                     <h2 className="text-[68px] font-[600]">404</h2>
                     <p>Sahifa topilmadi</p>

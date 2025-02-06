@@ -4,8 +4,8 @@
     left: 0;
     z-index: 100;
     background:#ffffffc2;
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
 }
 .navbar__collection{
     font-size: 16px;
@@ -21,6 +21,8 @@
     display: flex;
     gap: 20px
 }
+
+
 @media (max-width:990px) {
     .header{
         background: #70c174cc;
@@ -32,10 +34,10 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color:#70c174cc;
+        background-color:#a3cba5cc;
         width: 60%;
-        padding: 20px;
-        height: 400px;
+        padding: 15px;
+        height: 600px;
         transition: .6s;
         z-index: 11;
     }
@@ -62,6 +64,7 @@
 
     .navbar__menu {
         display:flex;
+        margin-left: 50px;
         
     }
     .navbar__number{

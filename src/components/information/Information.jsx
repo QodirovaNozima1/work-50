@@ -15,9 +15,9 @@ const Information = () => {
             Universe</h2>
             <p className='text-[#BDBDBD] font-bold'>We know how large objects will act, 
             but things on a small scale.</p>
-            <div className="buttons">
-                <button className='w-[171px] text-[14px] font-bold h-[52px] bg-[#2DC071] text-white'>BUY NOW</button>
-                <button className='w-[171px] text-[14px] font-bold h-[52px] bg-white text-[#2DC071]  border-b-emerald-400'>READ MORE</button>
+            <div className="buttons flex gap-1.5">
+                <button className='w-[171px] text-[14px] font-bold h-[52px] bg-[#2DC071] text-white rounded-lg hover:bg-green-600 focus:outline-offset-2 focus:outline-green-500 active:bg-green-700'>BUY NOW</button>
+                <button className='w-[171px] text-[14px] font-bold h-[52px] bg-white text-[#2DC071] rounded-lg  border-b-emerald-400 hover:bg-emerald-100'>READ MORE</button>
             </div>
         </div>
     </div>

@@ -15,7 +15,7 @@ const Posts = () => {
         <p className='text-[#737373]'>Problems trying to resolve the conflict between 
         the two major realms of Classical physics: Newtonian mechanics </p>
         <div className="posts grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28 mt-9">
-            <div className="flex flex-col w-[330px] border-slate-400">
+            <div className="posts__card flex flex-col w-[330px] border-slate-400">
                 <img src={post1} alt="" />
                 <div className="flex flex-col text-start gap-6 mt-3.5 p-3">
                     <h2 className='font-normal text-[20px]'>Loudest à la Madison #1 
@@ -39,7 +39,7 @@ const Posts = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col w-[330px] border-slate-400">
+            <div className="posts__card flex flex-col w-[330px] border-slate-400">
                 <img src={post2} alt="" />
                 <div className="flex flex-col text-start gap-6 mt-3.5 border-slate-500 p-3">
                     <h2 className='font-normal text-[20px]'>Loudest à la Madison #1 
@@ -63,7 +63,7 @@ const Posts = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col w-[330px] border-slate-400">
+            <div className="posts__card flex flex-col w-[330px] border-slate-400">
                 <img src={post3} alt="" />
                 <div className="flex flex-col text-start gap-6 mt-3.5 border-slate-500 p-3">
                     <h2 className='font-normal text-[20px]'>Loudest à la Madison #1 

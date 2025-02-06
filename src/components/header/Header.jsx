@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <header id='header' className={`header h-[70px] backdrop-blur-sm flex gap-5 p-5 items-center mt-[12px] ${bg}`}>
       <div className='container flex  items-center justify-between'>
-        <nav className="navbar  flex items-center justify-between gap-36">
+        <nav className="navbar  flex items-center justify-between gap-44">
           <div className="navbar__logo">
             <Link to={"/"}>
               <img src={navlogo} alt="" />
